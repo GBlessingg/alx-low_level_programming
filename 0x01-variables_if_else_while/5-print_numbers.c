@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 #include <stdlib.h>
 #include <time.h>
-/* more headers */
+#include <stdio.h>
 
 /* betty style doc for function main */
 int main(void)
