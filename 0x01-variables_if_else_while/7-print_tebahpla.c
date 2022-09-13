@@ -1,4 +1,6 @@
 #!/usr/bin/env perl
+#include <stdlib.h>
+#include <time.h>
 
 #include <stdio.h>
 use strict;
