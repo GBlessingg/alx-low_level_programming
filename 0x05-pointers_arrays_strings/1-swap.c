@@ -6,7 +6,12 @@
 *
 * Return: Always 0.
 */
-
+void swap_int()
+{
+  t = a;
+  a = b;
+  b = t;
+}
 int main(void)
 {
   int a;
