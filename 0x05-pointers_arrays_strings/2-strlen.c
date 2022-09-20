@@ -6,7 +6,14 @@
 *
 * Return: Always 0.
 */
-
+void _strlen(str)
+{
+  char str[] = "My first strlen!";
+  int i;
+  
+  for (i = 0; str[i] != '\0'; ++i);
+  printf("Length of the string: %d", i);
+}
 int main(void)
 {
   char *str;
