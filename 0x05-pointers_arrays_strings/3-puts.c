@@ -6,7 +6,12 @@
 *
 * Return: Always 0.
 */
-
+void _puts(str)
+{
+  char str[] = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+  puts (str);
+  printf("\n")
+}
 int main(void)
 {
   char *str;
