@@ -5,6 +5,15 @@
 *
 * Return: Always 0.
 */
+void puts2()
+{
+  char str[] = str;
+  int i = 0;
+  
+  while (str[i] != '\0')
+  {
+   printf("The character at %d index position = %c\n", i, str[i]);
+  }
 int main(void)
 {
   char *str;
