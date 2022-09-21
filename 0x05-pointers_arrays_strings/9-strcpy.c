@@ -6,6 +6,11 @@
 *
 * Return: Always 0.
 */
+
+void _strcpy()
+{
+  char *strcpy(char *s1, const *ptr);
+}
 int main(void)
 {
   int array[5]
