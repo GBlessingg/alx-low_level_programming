@@ -6,7 +6,12 @@
 *
 * Return: Always 0.
 */
-
+void print_rev()
+{
+  char str[] = str;
+  strrev(str);
+  printf("The reverse of the string: %s\n", s);
+}
 int main(void)
 {
   char *str;
